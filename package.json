@@ -1,6 +1,7 @@
 {
   "name": "saavn-proxy",
   "version": "1.0.0",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,6 +10,7 @@
     "express": "^4.19.2",
     "cors": "^2.8.5",
     "ioredis": "^5.4.1",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "express-rate-limit": "^7.4.0"
   }
 }
